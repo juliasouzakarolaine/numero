@@ -1,0 +1,21 @@
+<script>
+    const atividades = [
+        "Jogar bola",     // 0
+        "Ler um livro",   // 1
+        "Estudar",        // 2
+        "Escutar música", // 3
+        "Correr",         // 4
+        "Limpar a casa",  // 5
+        "Dormir"          // 6
+    ];
+    
+    let dia = parseInt(prompt("Digite o número correspondente ao dia da semana (0 a 6)"));
+    
+    if (dia >= 0 && dia <= 6) {
+    
+        document.write("Você vai " + atividades[dia]);
+    } else {
+      
+        alert("Dia da semana inválido");
+    }
+    </script>
